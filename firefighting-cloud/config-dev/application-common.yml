@@ -2,9 +2,3 @@ foo:
   hello config-dev
 
 
-management:
-  endpoints:
-    web:
-      exposure:
-        include: "*"
-
