@@ -5,7 +5,7 @@ spring:
     rabbitmq:
         username: superrd
         password: superrd
-        host: 192.168.48.128  #rabbitMQ实际IP地址
+        host: 192.168.11.120  #rabbitMQ实际IP地址
         port: 5672            #rabbitMQ实际端口
     cloud:
         bus:
