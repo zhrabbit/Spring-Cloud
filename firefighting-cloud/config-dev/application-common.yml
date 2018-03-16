@@ -12,9 +12,4 @@ spring:
             trace:
                 enabled: true   # 开启追踪
 
-management:
-  endpoints:
-    web:
-      exposure:
-        include: "*"
 
