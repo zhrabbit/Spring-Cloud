@@ -1,2 +1,6 @@
 foo:
   hello config-dev/application-common.yml
+eureka:
+  client:
+      service-url:
+          defaultZone: http://localhost:8761/eureka/  #地址根据实际eureka进行变更
