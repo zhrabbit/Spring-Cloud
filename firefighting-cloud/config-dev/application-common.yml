@@ -1,20 +1,3 @@
 foo:
   hello config-dev
 
-spring:
-    rabbitmq:
-        username: superrd
-        password: superrd
-        host: 192.168.11.120  #rabbitMQ实际IP地址
-        port: 5672            #rabbitMQ实际端口
-    cloud:
-        bus:
-            trace:
-                enabled: true   # 开启追踪
-management:
-  endpoints:
-    web:
-      exposure:
-        include: "*"
-server:
-    port: 8083
